@@ -34,3 +34,18 @@
 
 # What I learned doing it:
 - I got a refresher on how the use cases works.
+
+
+06/23/2025
+
+# What to do today:
+- Do the Google Contact Integration
+- Redid it due to wrong IDE used
+
+
+06/24/2025
+# What to do today:
+- Redoing the Google Contact Integration and the CRUD
+
+# What I learned from it:
+- I learned how to integrate Google API
