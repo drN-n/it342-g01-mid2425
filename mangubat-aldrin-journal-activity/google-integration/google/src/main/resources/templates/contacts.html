@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>Google Contacts</title>
+    </head>
+    <body>
+    <h1>Your Google Contacts</h1>
+
+    <div th:if="${contacts != null and contacts.connections != null}">
+        <ul>
+            <li th:each="contact : ${contacts.connections}">
+                <div>
+                    <strong th:text="${contact.names != null ? contact.names[0].displayName : 'No Name'}">Name</strong><br/>
+                    <span th:text="${contact.emailAddresses != null ? contact.emailAddresses[0].value : 'No Email'}">Email</span><br/>
+                    <span th:if="${contact.phoneNumbers != null}" th:text="${contact.phoneNumbers[0].value}">Phone</span><br/>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div th:if="${contacts == null or contacts.connections == null}">
+        <p>No contacts found or unable to fetch contacts.</p>
+    </div>
+
+    </body>
+</html>
