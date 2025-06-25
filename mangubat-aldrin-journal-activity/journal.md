@@ -55,3 +55,8 @@
 - I learned how to integrate Google API
 
 ――――――――――――――――――――――――――――――――――――――
+
+# 06/25/2025
+## What to do today:
+- Implemented CRUD on Google Contact Integration
+- Was able to run and test the system
