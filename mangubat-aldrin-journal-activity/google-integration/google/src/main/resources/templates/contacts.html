@@ -1,26 +1,40 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
     <head>
-        <title>Google Contacts</title>
+        <meta charset="UTF-8">
+        <title>My Contacts</title>
+        <link rel="stylesheet" th:href="@{/css/style.css}">
     </head>
     <body>
-    <h1>Your Google Contacts</h1>
+        <h1>My Contacts</h1>
 
-    <div th:if="${contacts != null and contacts.connections != null}">
-        <ul>
-            <li th:each="contact : ${contacts.connections}">
-                <div>
-                    <strong th:text="${contact.names != null ? contact.names[0].displayName : 'No Name'}">Name</strong><br/>
-                    <span th:text="${contact.emailAddresses != null ? contact.emailAddresses[0].value : 'No Email'}">Email</span><br/>
-                    <span th:if="${contact.phoneNumbers != null}" th:text="${contact.phoneNumbers[0].value}">Phone</span><br/>
-                </div>
-            </li>
-        </ul>
-    </div>
+        <div th:if="${message}" class="alert alert-success" th:text="${message}"></div>
+        <div th:if="${error}" class="alert alert-danger" th:text="${error}"></div>
 
-    <div th:if="${contacts == null or contacts.connections == null}">
-        <p>No contacts found or unable to fetch contacts.</p>
-    </div>
+        <p><a th:href="@{/contacts/add}">Add New Contact</a></p>
 
+        <table border="1">
+            <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone Number</th>
+                <th>Actions</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="contact : ${contacts}">
+                <td th:text="${contact.id}"></td>
+                <td th:text="${contact.name}"></td>
+                <td th:text="${contact.email}"></td>
+                <td th:text="${contact.phoneNumber}"></td>
+                <td>
+                    <a th:href="@{/contacts/edit/{id}(id=${contact.id})}">Edit</a> |
+                    <a th:href="@{/contacts/delete/{id}(id=${contact.id})}" onclick="return confirm('Are you sure you want to delete this contact?');">Delete</a>
+                </td>
+            </tr>
+            </tbody>
+        </table>
     </body>
 </html>

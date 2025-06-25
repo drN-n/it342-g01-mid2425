@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+        <title>Add New Contact</title>
+        <link rel="stylesheet" th:href="@{/css/style.css}">
+    </head>
+    <body>
+        <h1>Add New Contact</h1>
+
+        <form th:action="@{/contacts/add}" th:object="${contact}" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" th:field="*{name}" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" th:field="*{email}"><br><br>
+
+            <label for="phoneNumber">Phone Number:</label><br>
+            <input type="text" id="phoneNumber" th:field="*{phoneNumber}"><br><br>
+
+            <button type="submit">Save Contact</button>
+        </form>
+
+        <p><a th:href="@{/contacts}">Back to Contacts</a></p>
+    </body>
+</html>
