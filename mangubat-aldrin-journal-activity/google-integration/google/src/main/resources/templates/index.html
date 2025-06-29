@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
     <head>
-        <title>Google Contacts Integration</title>
+        <meta charset="UTF-8">
+        <title>Welcome</title>
+        <link rel="stylesheet" href="/css/style.css">
     </head>
     <body>
-    <h1>Welcome to Google Contacts Viewer</h1>
-
-    <div th:if="${#authorization.expression('isAuthenticated()')}">
-        <p>You are logged in.</p>
-        <a href="/contacts">View My Contacts</a>
-    </div>
-
-    <div th:if="${!#authorization.expression('isAuthenticated()')}">
-        <a href="/oauth2/authorization/google">Login with Google</a>
-    </div>
+        <div class="form-container" style="text-align: center;">
+            <h2>Welcome to Google Contacts App</h2>
+            <p>Please login to view your contacts.</p>
+            <a href="/oauth2/authorization/google">
+                <button>Login with Google</button>
+            </a>
+        </div>
     </body>
 </html>
