@@ -62,19 +62,14 @@
 
 # 06/25/2025
 ## What to do today:
-- Created a README for our Final Project
-
-## What I learned from it:
-- I learned how important README for everyone that checks our system.
+- Implemented CRUD on Google Contact Integration
+- Was able to run and test the system
 
 ---
 
 # 06/27/2025
 ## What to do today:
-- Started our frontend for our Final Project and redesigned the README
+- Designed the README for our System
+- Started Implementing Frontend for our System
 
 ---
-
-# 06/29/2025
-## What to do today:
-- Preparing for our first checkpoint.
