@@ -73,3 +73,19 @@
 - Started Implementing Frontend for our System
 
 ---
+
+# 06/28/2025
+## What to do today:
+- Improved our UI/UX Design for our Login and Registration Page
+- Installed TailwindCSS for our System
+
+## Challenges Faced:
+- Different File structure from what I'm used to but I managed.
+
+---
+
+# 06/30/2025
+## What to do today:
+- Converted some pages from CSS to TailwindCSS
+
+---
