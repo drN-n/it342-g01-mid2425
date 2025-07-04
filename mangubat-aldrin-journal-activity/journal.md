@@ -86,6 +86,28 @@
 
 # 06/30/2025
 ## What to do today:
+- Tried my approach for our file structure but reverted back to where everyone is comfortable.
+
+---
+
+# 07/02/2025
+## What to do today:
 - Converted some pages from CSS to TailwindCSS
 
 ---
+
+# 07/03/2025
+## What to do today:
+- Had our final quiz for this summer term
+
+---
+
+# 07/04/2025
+## What to do today:
+- Had our system checked
+- Result: Needs more improvement ASAP
+
+- Redo our ERD.
+
+## Learning:
+- Making a system within this timeline is really hectic (Planning - Documentations - Design - Implementation)
