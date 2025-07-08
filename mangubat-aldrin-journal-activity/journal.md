@@ -115,6 +115,7 @@
 # 07/05/2025
 ## What to do today:
 - Updated our Login and Registration Page (UI / UX)
+- Designing our Home Page and and it's features
 - Used TailwindCSS for Styling
 
 ## Learning:
@@ -122,5 +123,10 @@
 
 # 07/06/2025
 ## What to do today:
-- Designing our Home Page and and it's features
+- Updated our Home Page, Hotel Page, Search Results Page
+- Fixed Merge Conflicts
+
+## Challenge Faced:
+- I forgot to pull from origin main while at my branch so I had to fix the merge conflicts. Fortunately, I was able to figure out on how to do it easily.
+
 
