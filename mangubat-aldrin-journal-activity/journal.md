@@ -137,3 +137,11 @@
 - Improved Search Results Page Filter and Results
 
 - Updated README.md
+
+# 07/08/2025
+## What to do today:
+- Preparing for our Final Presention
+- Compiling my contributions
+
+## Note to Self:
+- GOOD LUCK!
