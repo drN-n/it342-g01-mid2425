@@ -129,4 +129,11 @@
 ## Challenge Faced:
 - I forgot to pull from origin main while at my branch so I had to fix the merge conflicts. Fortunately, I was able to figure out on how to do it easily.
 
+# 07/07/2025
+## What to do today:
+- Changed Input label = Username to Email Address
+- Updated our Search Results Page Filter and Budget Slider min - max (0 - 50,000)
+- Updated Home Page (Search Feature)
+- Improved Search Results Page Filter and Results
 
+- Updated README.md
