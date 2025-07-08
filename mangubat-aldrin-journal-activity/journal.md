@@ -111,3 +111,11 @@
 
 ## Learning:
 - Making a system within this timeline is really hectic (Planning - Documentations - Design - Implementation)
+
+# 07/05/2025
+## What to do today:
+- Updated our Login and Registration Page (UI / UX)
+- Used TailwindCSS for Styling
+
+## Learning:
+- UI is important because it makes a product look good and easy to use, while UX is crucial because it ensures the product is helpful, enjoyable, and meets user needs, leading to a positive overall experience.
